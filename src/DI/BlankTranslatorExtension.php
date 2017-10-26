@@ -13,7 +13,7 @@ class BlankTranslatorExtension extends \Nette\DI\CompilerExtension{
   public function loadConfiguration(){
     $container = $this->getContainerBuilder();
     $container->addDefinition($this->prefix('translator'))
-      ->setClass('Vojir\\BlankTranslator\\BlankTranslator');
+      ->setType('Vojir\\BlankTranslator\\BlankTranslator');
   }
 
 }
