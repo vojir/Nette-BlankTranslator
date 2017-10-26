@@ -1,28 +1,30 @@
-
 {
-	"name": "vojir/nette-blank-translator",
-	"type": "library",
-	"description": "Simple, blank translator for future translator usage in Nette projects",
-	"keywords": ["nette", "translation"],
-	"homepage": "https://github.com/vojir/Nette-BlankTranslator",
-	"license": "Apache-2.0",
-	"authors": [
-		{
-			"name": "Stanislav Vojíř",
-			"homepage": "https://vojir.net"
-		}
-	],
-	"support": {
-		"issues": "https://github.com/vojir/Nette-BlankTranslator/issues"
-	},
-	"require": {
-		"php": ">=5.5.0",
-		"nette/di": "^2.4",
-		"nette/http": "^2.4"
-	},
-	"autoload": {
-		"psr-0": {
-			"Vojir\\BlankTranslator\\": "src/"
-		}
-	}
+  "name": "vojir/nette-blank-translator",
+  "type": "library",
+  "description": "Simple, blank translator for future translator usage in Nette projects",
+  "keywords": [
+    "nette",
+    "translation"
+  ],
+  "homepage": "https://github.com/vojir/Nette-BlankTranslator",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Stanislav Vojíř",
+      "homepage": "https://vojir.net"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/vojir/Nette-BlankTranslator/issues"
+  },
+  "require": {
+    "php": ">=5.5.0",
+    "nette/di": "^2.4",
+    "nette/utils": "^2.4"
+  },
+  "autoload": {
+    "psr-0": {
+      "Vojir\\BlankTranslator\\": "src/"
+    }
+  }
 }
