@@ -23,7 +23,7 @@
     "nette/utils": "^2.4"
   },
   "autoload": {
-    "psr-0": {
+    "psr-4": {
       "Vojir\\BlankTranslator\\": "src/"
     }
   }
