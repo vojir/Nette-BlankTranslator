@@ -1,6 +1,6 @@
 
 {
-	"name": "vojit/nette-blank-translator",
+	"name": "vojir/nette-blank-translator",
 	"type": "library",
 	"description": "Simple, blank translator for future translator usage in Nette projects",
 	"keywords": ["nette", "translation"],
