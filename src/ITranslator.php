@@ -15,12 +15,12 @@ interface ITranslator extends \Nette\Localization\ITranslator{
    * Method returning the actual language
    * @return string
    */
-  public function getLang();
+  public function getLang():string;
 
   /**
    * Method for selection of the actual language
    * @param string $language
    */
-  public function setLang($language);
+  public function setLang(string $language);
 
 }
