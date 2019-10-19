@@ -18,9 +18,9 @@
     "issues": "https://github.com/vojir/Nette-BlankTranslator/issues"
   },
   "require": {
-    "php": ">=5.5.0",
-    "nette/di": "^2.4",
-    "nette/utils": "^2.4"
+    "php": ">=7.1.0",
+    "nette/di": "^3.0",
+    "nette/utils": "^3.0"
   },
   "autoload": {
     "psr-4": {
