@@ -15,10 +15,10 @@ class BlankTranslator implements ITranslator{
   /**
    * Translates the given string.
    * @param  string   $message
-   * @param  int      $count plural
+   * @param array $parameters
    * @return string
    */
-  function translate($message, $count = null) {
+  function translate($message, ...$parameters):string {
     return $message;
   }
 
@@ -26,7 +26,7 @@ class BlankTranslator implements ITranslator{
    * Method returning the actual language
    * @return string
    */
-  public function getLang() {
+  public function getLang():string {
     return $this->lang;
   }
 
@@ -34,7 +34,7 @@ class BlankTranslator implements ITranslator{
    * Method for selection of the actual language
    * @param string $language
    */
-  public function setLang($language){
+  public function setLang(string $language){
     $this->lang=$language;
   }
 }
